@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 15px;
+}
+
 body {
     height: 100vh;
     background-color: var(--Light-gray);
@@ -27,7 +31,7 @@ body {
     border-radius: 15px;
 }
 
-.image {
+header {
     padding: 1rem;
 }
 
@@ -36,15 +40,17 @@ img {
     border-radius: 3%;
 }
 
-.container {
+main {
     margin-bottom: 2.6rem;
 }
 
-h2 {
+h1 {
     margin: 0.3rem 0 1rem;
     color: var(--Dark-blue);
+    font-size: 1.85rem;
 }
 
 p {
     color: var(--Grayish-blue);
+    font-size: 1.2rem;
 }
